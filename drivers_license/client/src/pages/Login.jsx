@@ -12,7 +12,7 @@ export default function Login() {
 
     const hendelSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:5000/login', {
+        axios.post('http://localhost:5000/user', {
             email,
             password
         })

@@ -6,4 +6,5 @@ const UserSchema = new mongoose.Schema({
     password: String
 }) 
 
+
 export const UserModel = mongoose.model("drivers", UserSchema)

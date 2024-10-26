@@ -19,7 +19,7 @@ export default function SingUp() {
             password
         })
         .then(result => {console.log(result)
-        navigate("/login")
+        navigate("/license")
         })
         .catch(err=> console.log(err))
     }
